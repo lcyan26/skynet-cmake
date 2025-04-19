@@ -2,7 +2,7 @@
 name: msvc
 
 # Run this workflow every time a new commit pushed to your repository
-on: [push, pull_request]
+on: [push, pull_request, workflow_dispatch]
 
 jobs:
   build:
